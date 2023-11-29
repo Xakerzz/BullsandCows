@@ -1,0 +1,43 @@
+type: matching
+captions:
+  - Math.sqrt(x)
+  - Math.cbrt(x)
+  - Math.abs(x)
+  - Math.log(x)
+  - Math.log10(x)
+  - "Math.max(x, y)"
+  - "Math.min(x, y)"
+  - "Math.pow(x, y)"
+options:
+  - returns the cube root of value x
+  - returns the base 10 logarithm of x
+  - returns the smaller value of x and y
+  - returns the absolute value of x
+  - returns natural logarithm (base e) of x
+  - returns the greater value of x and y
+  - returns the square root of value x
+  - returns the value of x raised to the power of y.
+files:
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2235#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7

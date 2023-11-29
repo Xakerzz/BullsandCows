@@ -1,0 +1,31 @@
+type: matching
+captions:
+  - Math.ceil(3.04)
+  - Math.ceil(4.76)
+  - Math.floor(3.07)
+  - Math.floor(2.83)
+options:
+  - 5.0
+  - 2.0
+  - 3.0
+  - 4.0
+files:
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2239#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2
+  - 3
